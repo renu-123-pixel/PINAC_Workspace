@@ -1,7 +1,3 @@
-> **Hello everyone**,
-> 
-> We are currently checking whether the app is functioning smoothly. If anyone encounters an error in the backend or from the server, please report the bug in the Issue.
-
 <div align="center">
 
 <h1 style="border-bottom: none">
@@ -18,7 +14,7 @@
 ![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
 [![View Repositories](https://img.shields.io/badge/View-Our_Repositories-blue?logo=GitHub)](https://github.com/pinacai?tab=repositories)
 
-A privacy-focused, cross-platform and open-source alternative for Copilot on Windows.  
+A privacy-focused, cross-platform, and open-source alternative for Copilot on Windows.  
 One Next-Gen AI Chat for all your needs.
 <br>
 <br>
@@ -37,12 +33,16 @@ Experience the **Next Gen AI Chat** —your all-in-one chat for text generation,
 
 > View our Roadmap & Progress: https://github.com/orgs/pinacai/projects/1  
 
+> In this we develop the frontend part of the desktop app. We develop the python server separately in our repo  <a href="https://github.com/pinacai/PINAC-Nexus">PINAC Nexus</a>. We update the server in this repo with every new version of the server.
+
 ## 🎨 Themes
 
-Responsive design like never before, from the narrowest screen to the full screen or half-screen, it adopted smoothly...
+You have a new color theme idea ? We got you !
 <br />
 
-<img src="https://github.com/pinacai/PINAC_Workspace/blob/main/assets/app_theme.png" alt="app screenshot">
+<img src="https://github.com/pinacai/PINAC_Workspace/blob/main/assets/Dawn_&_Dusk.jpg" alt="Dawn & Dusk Screenshot">
+<img src="https://github.com/pinacai/PINAC_Workspace/blob/main/assets/Cyber_Tech_01.jpg" alt="Cyber_Tech_01 Screenshot">
+<img src="https://github.com/pinacai/PINAC_Workspace/blob/main/assets/Aesthetic_Unbound.jpg" alt="Aesthetic_Unbound Screenshot">
 
 
 ## 📂 File Structure
@@ -84,7 +84,7 @@ The best file structure ever!
     python -m venv env && source env/bin/activate
     ```
 
-3. install the python dependencies with
+3. install the Python dependencies with
     ```bash
     pip install -r requirements.txt
     ```
@@ -100,9 +100,9 @@ The best file structure ever!
     ```bash
     npm run dev
     ```
-> **NOTICE**: Currently you have to give both OPENAI & GEMINI API otherwise server will through error, if you have one key, put other one randomly anything, but don't select that Model to use.
+> **NOTICE**: Currently you have to give both OPENAI & GEMINI API otherwise the server will go through an error, if you have one key, put the other one randomly anything, but don't select that Model to use.
 
-> **Remember**: Always activate the python virtual env with the command `source env/bin/activate` before starting the app with command `npm run dev`. Otherwise server will not start.
+> **Remember**: Always activate the Python virtual env with the command `source env/bin/activate` before starting the app with the command `npm run dev`. Otherwise, the server will not start.
 
 ## 🎉 Contributing
 
